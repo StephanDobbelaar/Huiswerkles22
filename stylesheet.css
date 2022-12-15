@@ -1,0 +1,106 @@
+body{
+  background-color: green;
+}
+
+header{
+  border: 3px solid;
+  background-color: #0C71F5;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+
+footer{
+  border: 3px solid;
+  border-radius: 7px;
+  background-color: yellow;
+  min-height: 200px;
+  text-align: center;
+  padding: 75px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  background-color: red;
+  border-radius: 0px;
+}
+
+.nul{
+  border: 3px solid;
+  border-radius: 7px;
+  background-color: pink;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.row{
+  border: 3px solid;
+  border-radius: 7px;
+  background-color: pink;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+img{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.btn-group{
+  margin: auto;
+  display: flex;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+.twee:hover{
+  background-color: yellow;
+}
+
+.twee:active{
+  background-color: green;
+}
+
+.een{
+  border: 3px solid;
+  border-radius: 7px;
+  background-color: pink;
+  margin-top: 15px;
+}
+
+input[type="text"], input[type="email"],input[type="date"], textarea, .twee{
+  text-align: center;
+  box-sizing: border-box;
+  margin: 15px auto;
+  border-radius: 7px;
+  border: 2px solid red;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.mijzelf, .werkervaring, .hobby{
+  border: 3px solid;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: pink;
+}
+
+.werkervaring{
+  font-size: 20px;
+  font-style: italic;
+  font-family: cursive;
+}
